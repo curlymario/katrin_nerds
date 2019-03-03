@@ -47,9 +47,9 @@
         </li>
       </ul>
       <ul class="slider-selector">
-        <li><button></button></li>
-        <li><button></button></li>
-        <li><button></button></li>
+        <li><button type="button"></button></li>
+        <li><button type="button"></button></li>
+        <li><button type="button"></button></li>
       </ul>
     </section>
 
@@ -131,15 +131,29 @@
       <p>Скидка 10% для друзей из социальных сетей.</p>
       <ul class="social-list">
         <li class="social-button"><a href="#">Вконтакте</a></li>
-        <li class="social-button"><a href="">Фейсбук</a></li>
-        <li class="social-button"><a href="">Инстаграм</a></li>
+        <li class="social-button"><a href="#">Фейсбук</a></li>
+        <li class="social-button"><a href="#">Инстаграм</a></li>
       </ul>
     </section>
 
     <section class="modal">
       <h2>Напишите нам</h2>
-      <!-- Здесь будет форма -->
-      <button class="close">X</button>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="user-name">Ваше имя</label>
+          <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="user-email">Ваш E-mail</label>
+          <input id="user-email" type="email" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="message">Текст письма</label>
+          <textarea rows="3" id="message" name="message" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
 
   </footer>
