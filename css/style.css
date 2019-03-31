@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+
+  background-color: #fb5559;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7363a;
+}
+
+.button-green {
+  background-color: #00c973;
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #00bc6b;
+}
+
+.button-green:active {
+  background-color: #00aa61;
+}
+
+.button-yellow {
+  background-color: #efc749;
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background-color: #eab434;
+}
+
+.button-yellow:active {
+  background-color: #e5a722;
+}
+
+header {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.cart-link {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart-link:hover,
+.cart-link:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.cart-link:focus {
+  color: #dbdbdb;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.slider b {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.slider {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #eeeeee;
+}
+
+.slider-list {
+  list-style: none;
+}
+
+.slider-selector {
+  list-style: none;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-list-h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about b {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.about-h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about ul {
+  list-style: none;
+}
+
+th {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+
+td {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.clients ul {
+  list-style: none;
+}
+
+.clients img {
+  opacity: 0.3;
+}
+
+.clients img:hover,
+.clients img:focus {
+  opacity: 1;
+}
+
+.clients img:active {
+  opacity: 0.1;
+}
+
+.contacts p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.contacts-h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.social b {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.social p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.modal {
+  color: #000000;
+
+  background-position: 0 0;
+}
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"],
+.feedback textarea {
+
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  color: rgba(68, 68, 68, 0.5);
+
+  background-color: transparent;
+  border: 2px solid #d7dcde;
+}
+
+.feedback input[type="text"]:hover,
+.feedback input[type="email"]:hover,
+.feedback textarea:hover {
+
+  border: 2px solid #b4b9bb;
+}
+
+.feedback input[type="text"]:focus,
+.feedback input[type="email"]:focus,
+.feedback textarea:focus {
+
+  color: #444444;
+  border: 2px solid#000000;
+}
+
+.feedback .invalid {
+  
+  color: #e74246;
+  border: 2px solid #e74246;
+}
+
+label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
