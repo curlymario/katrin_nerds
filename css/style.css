@@ -98,7 +98,7 @@ header {
 
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -270,9 +270,151 @@ td {
   border: 2px solid #e74246;
 }
 
-label {
+.feedback label {
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
   color: #000000;
+}
+
+.header-box {
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.filter-form fieldset {
+  border: none;
+}
+
+legend,
+.sort h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-form label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.range label {
+  text-transform: uppercase;
+}
+
+.range input {
+
+  font: inherit;
+  line-height: 22px;
+  text-align: center;
+  color: #283136;
+
+  background-color: #eeeeee;
+  border: none;
+}
+
+.filter-form ul {
+  list-style: none;
+}
+
+.filter-button {
+  color: #000000;
+  background-color: #ededed;
+
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.sort-list,
+.sort-direction {
+  list-style: none;
+}
+
+.sort-list a,
+.sort-direction a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.sort-list a:hover,
+.sort-direction a:hover,
+.sort-list a:focus,
+.sort-direction a:focus {
+  opacity: 0.6;
+}
+
+.sort-list a:active,
+.sort-direction a:active,
+.sort-current a {
+opacity: 1;
+}
+
+.items-list {
+  list-style: none;
+}
+
+.item-description {
+  background-color: #eeeeee;
+  color: #666666;
+  line-height: 18px;
+  text-align: center;
+}
+
+.item-description h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a,
+.pagination-next a {
+  color: #000000;
+  background-color: #ededed;
+
+}
+
+.pagination-item a:hover,
+.pagination-next a:hover,
+.pagination-item a:focus,
+.pagination-next a:focus {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:active,
+.pagination-next a:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+  background-color: #ffffff;
+
+  border: 3px solid #dbdbdb;
 }
