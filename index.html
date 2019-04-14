@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +32,7 @@
 
     <section class="slider">
       <h2 class="visually-hidden">Обложка сайта</h2>
-      <ul>
+      <ul class="slider-list">
         <li>
           <b>Долго, дорого, скрупулезно.</b>
           <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
@@ -55,41 +58,41 @@
 
     <section class="services">
       <h2 class="visually-hidden">Наши услуги</h2>
-      <ul>
+      <ul class="services-list">
         <li>
-          <h3>Веб-сайты</h3>
+          <h3 class="services-list-h3">Веб-сайты</h3>
           <img src="img/illustration-1.png" width="300" height="146" alt="Иллюстрация: ноутбук">
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
           <a class="button" href="#">Заказать</a>
         </li>
         <li>
-          <h3>Приложения</h3>
+          <h3 class="services-list-h3">Приложения</h3>
           <img src="img/illustration-2.png" width="300" height="146" alt="Иллюстрация: телефоны">
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a class="button" href="#">Заказать</a>
+          <a class="button button-green" href="#">Заказать</a>
         </li>
         <li>
-          <h3>Презентации</h3>
+          <h3 class="services-list-h3">Презентации</h3>
           <img src="img/illustration-3.png" width="300" height="146" alt="Иллюстрация: дисплей">
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a class="button" href="#">Заказать</a>
+          <a class="button button-yellow" href="#">Заказать</a>
         </li>
       </ul>
     </section>
 
-    <section class="About">
+    <section class="about">
       <h2 class="visually-hidden">О нас</h2>
       <b>Мы — маленькая, но гордая дизайн-студия из Краснодара. </b>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
         рук, как роботы.</p>
       <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип Нёрдс">
-      <h3>Выполняем заказы на разработку:</h3>
+      <h3 class="about-h3">Выполняем заказы на разработку:</h3>
       <ul>
         <li>Веб-сайтов любой сложности</li>
         <li>Мобильных приложений для iOS и Android</li>
         <li>Слайдшоу и видео для корпоративных презентаций</li>
       </ul>
-      <h3>с 2004 года Любим точность во всем:</h3>
+      <h3 class="about-h3">с 2004 года Любим точность во всем:</h3>
       <table>
         <tr>
           <th>Уровень самоотдачи</th>
@@ -97,9 +100,9 @@
           <th>Минимальная предоплата</th>
         </tr>
         <tr>
-          <td><br>146%<br></td>
-          <td>100%<br></td>
-          <td>50%<br></td>
+          <td>146%</td>
+          <td>100%</td>
+          <td>50%</td>
         </tr>
       </table>
     </section>
@@ -118,7 +121,7 @@
   <footer class="main-footer">
     <section class="contacts">
       <h2 class="visually-hidden">Как добраться</h2>
-      <h3>NЁRDS DESIGN STUDIO</h3>
+      <h3 class="contacts-h3">NЁRDS DESIGN STUDIO</h3>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <p>тел. +7 (812) 275-75-75</p>
       <button class="button">Напишите нам</button>
@@ -138,7 +141,7 @@
 
     <section class="modal">
       <h2>Напишите нам</h2>
-      <form class="login-form" action="https://echo.htmlacademy.ru" method="POST">
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="POST">
         <p>
           <label for="user-name">Ваше имя</label>
           <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">

@@ -1,0 +1,420 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+
+  background-color: #fb5559;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7363a;
+}
+
+.button-green {
+  background-color: #00c973;
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #00bc6b;
+}
+
+.button-green:active {
+  background-color: #00aa61;
+}
+
+.button-yellow {
+  background-color: #efc749;
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background-color: #eab434;
+}
+
+.button-yellow:active {
+  background-color: #e5a722;
+}
+
+header {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.cart-link {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart-link:hover,
+.cart-link:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.cart-link:focus {
+  color: #dbdbdb;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.slider b {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.slider {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #eeeeee;
+}
+
+.slider-list {
+  list-style: none;
+}
+
+.slider-selector {
+  list-style: none;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-list-h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about b {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.about-h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about ul {
+  list-style: none;
+}
+
+th {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+
+td {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.clients ul {
+  list-style: none;
+}
+
+.clients img {
+  opacity: 0.3;
+}
+
+.clients img:hover,
+.clients img:focus {
+  opacity: 1;
+}
+
+.clients img:active {
+  opacity: 0.1;
+}
+
+.contacts p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.contacts-h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.social b {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.social p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.modal {
+  color: #000000;
+
+  background-position: 0 0;
+}
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"],
+.feedback textarea {
+
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  color: rgba(68, 68, 68, 0.5);
+
+  background-color: transparent;
+  border: 2px solid #d7dcde;
+}
+
+.feedback input[type="text"]:hover,
+.feedback input[type="email"]:hover,
+.feedback textarea:hover {
+
+  border: 2px solid #b4b9bb;
+}
+
+.feedback input[type="text"]:focus,
+.feedback input[type="email"]:focus,
+.feedback textarea:focus {
+
+  color: #444444;
+  border: 2px solid#000000;
+}
+
+.feedback .invalid {
+  
+  color: #e74246;
+  border: 2px solid #e74246;
+}
+
+.feedback label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.header-box {
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.filter-form fieldset {
+  border: none;
+}
+
+legend,
+.sort h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-form label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.range label {
+  text-transform: uppercase;
+}
+
+.range input {
+
+  font: inherit;
+  line-height: 22px;
+  text-align: center;
+  color: #283136;
+
+  background-color: #eeeeee;
+  border: none;
+}
+
+.filter-form ul {
+  list-style: none;
+}
+
+.filter-button {
+  color: #000000;
+  background-color: #ededed;
+
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.sort-list,
+.sort-direction {
+  list-style: none;
+}
+
+.sort-list a,
+.sort-direction a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.sort-list a:hover,
+.sort-direction a:hover,
+.sort-list a:focus,
+.sort-direction a:focus {
+  opacity: 0.6;
+}
+
+.sort-list a:active,
+.sort-direction a:active,
+.sort-current a {
+opacity: 1;
+}
+
+.items-list {
+  list-style: none;
+}
+
+.item-description {
+  background-color: #eeeeee;
+  color: #666666;
+  line-height: 18px;
+  text-align: center;
+}
+
+.item-description h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a,
+.pagination-next a {
+  color: #000000;
+  background-color: #ededed;
+
+}
+
+.pagination-item a:hover,
+.pagination-next a:hover,
+.pagination-item a:focus,
+.pagination-next a:focus {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:active,
+.pagination-next a:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+  background-color: #ffffff;
+
+  border: 3px solid #dbdbdb;
+}

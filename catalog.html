@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,22 +28,22 @@
   </header>
 
   <main class="container">
-    <h1>Магазин готовых шаблонов</h1>
+    <h1 class="header-box">Магазин готовых шаблонов</h1>
 
     <section class="filter">
       <h2 class="visually-hidden">Фильтр шаблонов</h2>
-      <form class="filter" action="https://echo.htmlacademy.ru" method="GET">
-        <fieldset>
+      <form class="filter-form" action="https://echo.htmlacademy.ru" method="GET">
+        <fieldset class="range">
           <legend>Стоимость</legend>
-          <div class="range"></div>
+          <div class="range-input"></div>
           <p>
             <label for="price-min">От</label>
             <input type="text" id="price-min" name="price-min" value="0">
           </p>
           <p>
-              <label for="price-max">До</label>
-              <input type="text" id="price-max" name="price-max" value="15 000">
-            </p>
+            <label for="price-max">До</label>
+            <input type="text" id="price-max" name="price-max" value="15 000">
+          </p>
         </fieldset>
 
         <fieldset>
@@ -165,10 +168,10 @@
         </li>
       </ul>
       <ul class="pagination-list">
-        <li class="pagination-item pagination-item-current"><a>1</a></li>
-        <li class="pagination-item"><a href="#">2</a></li>
-        <li class="pagination-item"><a href="#">3</a></li>
-        <li class="pagination-next"><a href="#"></a></li>
+        <li class="pagination-item-current"><a tabindex="0" class="button">1</a></li>
+        <li class="pagination-item"><a class="button" href="#">2</a></li>
+        <li class="pagination-item"><a class="button" href="#">3</a></li>
+        <li class="pagination-next"><a class="button" href="#">Следующая</a></li>
       </ul>
     </section>
   </main>
@@ -196,7 +199,7 @@
 
     <section class="modal">
       <h2>Напишите нам</h2>
-      <form class="login-form" action="https://echo.htmlacademy.ru" method="POST">
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="POST">
         <p>
           <label for="user-name">Ваше имя</label>
           <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
